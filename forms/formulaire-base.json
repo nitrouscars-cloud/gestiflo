@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-04-09T14:56:33-04:00",
+    "generated_at": "2026-04-09T15:24:42-04:00",
     "template_id": 1,
     "template_name": "Base",
     "hourly_rate": 100,
@@ -9,47 +9,52 @@
     "tasks": [
         {
             "id": 1,
-            "name": "1",
-            "color": "#1565C0"
-        },
-        {
-            "id": 2,
-            "name": "2",
-            "color": "#1565C0"
-        },
-        {
-            "id": 3,
-            "name": "3",
+            "name": "Design",
             "color": "#1565C0"
         },
         {
             "id": 4,
-            "name": "4",
+            "name": "Deuxieme conférence",
             "color": "#1565C0"
         },
         {
             "id": 5,
-            "name": "5",
+            "name": "Deuxieme modif",
             "color": "#1565C0"
         },
         {
             "id": 6,
-            "name": "a",
+            "name": "Meeting d'equipe",
             "color": "#1565C0"
         },
         {
-            "id": 7,
-            "name": "b",
+            "id": 10,
+            "name": "Plan d'horticulture",
             "color": "#1565C0"
         },
         {
             "id": 8,
-            "name": "c",
+            "name": "Plan general de base",
             "color": "#1565C0"
         },
         {
             "id": 9,
-            "name": "d",
+            "name": "Plan pour paysagiste",
+            "color": "#1565C0"
+        },
+        {
+            "id": 2,
+            "name": "Premiere conférence",
+            "color": "#1565C0"
+        },
+        {
+            "id": 3,
+            "name": "Premiere modif",
+            "color": "#1565C0"
+        },
+        {
+            "id": 7,
+            "name": "Validation des plans",
             "color": "#1565C0"
         }
     ],
@@ -65,7 +70,7 @@
             "code": "2.1",
             "step": 2,
             "parent_code": null,
-            "label": "1",
+            "label": "Design",
             "input_type": "time",
             "sort_order": 10
         },
@@ -74,7 +79,7 @@
             "code": "2.2",
             "step": 2,
             "parent_code": null,
-            "label": "2",
+            "label": "Premiere conférence",
             "input_type": "time",
             "sort_order": 20
         },
@@ -83,7 +88,7 @@
             "code": "2.3",
             "step": 2,
             "parent_code": null,
-            "label": "3",
+            "label": "Premiere modif",
             "input_type": "time",
             "sort_order": 30
         },
@@ -92,7 +97,7 @@
             "code": "2.4",
             "step": 2,
             "parent_code": null,
-            "label": "4",
+            "label": "Deuxieme conférence",
             "input_type": "time",
             "sort_order": 40
         },
@@ -101,7 +106,7 @@
             "code": "2.5",
             "step": 2,
             "parent_code": null,
-            "label": "5",
+            "label": "Deuxieme modif",
             "input_type": "time",
             "sort_order": 50
         },
@@ -110,7 +115,7 @@
             "code": "2.6",
             "step": 2,
             "parent_code": null,
-            "label": "a",
+            "label": "Meeting d'equipe",
             "input_type": "time",
             "sort_order": 60
         },
@@ -119,7 +124,7 @@
             "code": "2.7",
             "step": 2,
             "parent_code": null,
-            "label": "b",
+            "label": "Validation des plans",
             "input_type": "time",
             "sort_order": 70
         },
@@ -128,7 +133,7 @@
             "code": "2.8",
             "step": 2,
             "parent_code": null,
-            "label": "c",
+            "label": "Plan general de base",
             "input_type": "time",
             "sort_order": 80
         },
@@ -137,7 +142,7 @@
             "code": "2.9",
             "step": 2,
             "parent_code": null,
-            "label": "d",
+            "label": "Plan pour paysagiste",
             "input_type": "time",
             "sort_order": 90
         },
@@ -146,9 +151,18 @@
             "code": "2.10",
             "step": 2,
             "parent_code": null,
+            "label": "Plan d'horticulture",
+            "input_type": "time",
+            "sort_order": 100
+        },
+        {
+            "id": 11,
+            "code": "2.11",
+            "step": 2,
+            "parent_code": null,
             "label": "Autre tâche (précisez)",
             "input_type": "time_other",
-            "sort_order": 100
+            "sort_order": 110
         }
     ]
 }
