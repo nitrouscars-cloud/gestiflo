@@ -1,0 +1,154 @@
+{
+    "generated_at": "2026-04-09T14:56:33-04:00",
+    "template_id": 1,
+    "template_name": "Base",
+    "hourly_rate": 100,
+    "admin_fee": 1,
+    "base_plan_adjustments": {},
+    "fixed_items": [],
+    "tasks": [
+        {
+            "id": 1,
+            "name": "1",
+            "color": "#1565C0"
+        },
+        {
+            "id": 2,
+            "name": "2",
+            "color": "#1565C0"
+        },
+        {
+            "id": 3,
+            "name": "3",
+            "color": "#1565C0"
+        },
+        {
+            "id": 4,
+            "name": "4",
+            "color": "#1565C0"
+        },
+        {
+            "id": 5,
+            "name": "5",
+            "color": "#1565C0"
+        },
+        {
+            "id": 6,
+            "name": "a",
+            "color": "#1565C0"
+        },
+        {
+            "id": 7,
+            "name": "b",
+            "color": "#1565C0"
+        },
+        {
+            "id": 8,
+            "name": "c",
+            "color": "#1565C0"
+        },
+        {
+            "id": 9,
+            "name": "d",
+            "color": "#1565C0"
+        }
+    ],
+    "plans": [],
+    "tooltips": {
+        "step_1": "Veuillez remplir vos coordonnées.",
+        "step_2": "Entrez le nombre d'heures estimé pour chaque tâche."
+    },
+    "pricing": [],
+    "form_items": [
+        {
+            "id": 1,
+            "code": "2.1",
+            "step": 2,
+            "parent_code": null,
+            "label": "1",
+            "input_type": "time",
+            "sort_order": 10
+        },
+        {
+            "id": 2,
+            "code": "2.2",
+            "step": 2,
+            "parent_code": null,
+            "label": "2",
+            "input_type": "time",
+            "sort_order": 20
+        },
+        {
+            "id": 3,
+            "code": "2.3",
+            "step": 2,
+            "parent_code": null,
+            "label": "3",
+            "input_type": "time",
+            "sort_order": 30
+        },
+        {
+            "id": 4,
+            "code": "2.4",
+            "step": 2,
+            "parent_code": null,
+            "label": "4",
+            "input_type": "time",
+            "sort_order": 40
+        },
+        {
+            "id": 5,
+            "code": "2.5",
+            "step": 2,
+            "parent_code": null,
+            "label": "5",
+            "input_type": "time",
+            "sort_order": 50
+        },
+        {
+            "id": 6,
+            "code": "2.6",
+            "step": 2,
+            "parent_code": null,
+            "label": "a",
+            "input_type": "time",
+            "sort_order": 60
+        },
+        {
+            "id": 7,
+            "code": "2.7",
+            "step": 2,
+            "parent_code": null,
+            "label": "b",
+            "input_type": "time",
+            "sort_order": 70
+        },
+        {
+            "id": 8,
+            "code": "2.8",
+            "step": 2,
+            "parent_code": null,
+            "label": "c",
+            "input_type": "time",
+            "sort_order": 80
+        },
+        {
+            "id": 9,
+            "code": "2.9",
+            "step": 2,
+            "parent_code": null,
+            "label": "d",
+            "input_type": "time",
+            "sort_order": 90
+        },
+        {
+            "id": 10,
+            "code": "2.10",
+            "step": 2,
+            "parent_code": null,
+            "label": "Autre tâche (précisez)",
+            "input_type": "time_other",
+            "sort_order": 100
+        }
+    ]
+}
