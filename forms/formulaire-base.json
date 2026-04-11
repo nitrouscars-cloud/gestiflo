@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-04-09T15:36:25-04:00",
+    "generated_at": "2026-04-11T08:40:12-04:00",
     "template_id": 1,
     "template_name": "Base",
     "hourly_rate": 100,
@@ -9,26 +9,31 @@
     "tasks": [
         {
             "id": 3,
-            "name": "Conférence",
-            "color": "#1565C0"
-        },
-        {
-            "id": 1,
-            "name": "Design",
+            "name": "Conférence 1",
             "color": "#1565C0"
         },
         {
             "id": 5,
-            "name": "Deuxieme conférence",
+            "name": "Conférence 2",
+            "color": "#1565C0"
+        },
+        {
+            "id": 2,
+            "name": "Design",
             "color": "#1565C0"
         },
         {
             "id": 4,
-            "name": "Deuxieme modif",
+            "name": "Modification 1",
             "color": "#1565C0"
         },
         {
-            "id": 11,
+            "id": 6,
+            "name": "Modification 2",
+            "color": "#1565C0"
+        },
+        {
+            "id": 9,
             "name": "Plan d'horticulture",
             "color": "#1565C0"
         },
@@ -39,22 +44,12 @@
         },
         {
             "id": 8,
-            "name": "Plan général de base",
+            "name": "Plan general de base",
             "color": "#1565C0"
         },
         {
-            "id": 9,
-            "name": "Plan pour paysagiste",
-            "color": "#1565C0"
-        },
-        {
-            "id": 2,
-            "name": "Premiere modif",
-            "color": "#1565C0"
-        },
-        {
-            "id": 6,
-            "name": "Reunion d'équipe",
+            "id": 1,
+            "name": "Reproduction de la maison",
             "color": "#1565C0"
         },
         {
@@ -75,7 +70,7 @@
             "code": "2.1",
             "step": 2,
             "parent_code": null,
-            "label": "Design",
+            "label": "Reproduction de la maison",
             "input_type": "time",
             "sort_order": 10
         },
@@ -84,7 +79,7 @@
             "code": "2.2",
             "step": 2,
             "parent_code": null,
-            "label": "Premiere modif",
+            "label": "Design",
             "input_type": "time",
             "sort_order": 20
         },
@@ -93,7 +88,7 @@
             "code": "2.3",
             "step": 2,
             "parent_code": null,
-            "label": "Conférence",
+            "label": "Conférence 1",
             "input_type": "time",
             "sort_order": 30
         },
@@ -102,7 +97,7 @@
             "code": "2.4",
             "step": 2,
             "parent_code": null,
-            "label": "Deuxieme modif",
+            "label": "Modification 1",
             "input_type": "time",
             "sort_order": 40
         },
@@ -111,7 +106,7 @@
             "code": "2.5",
             "step": 2,
             "parent_code": null,
-            "label": "Deuxieme conférence",
+            "label": "Conférence 2",
             "input_type": "time",
             "sort_order": 50
         },
@@ -120,7 +115,7 @@
             "code": "2.6",
             "step": 2,
             "parent_code": null,
-            "label": "Reunion d'équipe",
+            "label": "Modification 2",
             "input_type": "time",
             "sort_order": 60
         },
@@ -138,7 +133,7 @@
             "code": "2.8",
             "step": 2,
             "parent_code": null,
-            "label": "Plan général de base",
+            "label": "Plan general de base",
             "input_type": "time",
             "sort_order": 80
         },
@@ -147,7 +142,7 @@
             "code": "2.9",
             "step": 2,
             "parent_code": null,
-            "label": "Plan pour paysagiste",
+            "label": "Plan d'horticulture",
             "input_type": "time",
             "sort_order": 90
         },
@@ -165,18 +160,9 @@
             "code": "2.11",
             "step": 2,
             "parent_code": null,
-            "label": "Plan d'horticulture",
-            "input_type": "time",
-            "sort_order": 110
-        },
-        {
-            "id": 12,
-            "code": "2.12",
-            "step": 2,
-            "parent_code": null,
             "label": "Autre tâche (précisez)",
             "input_type": "time_other",
-            "sort_order": 120
+            "sort_order": 110
         }
     ]
 }
