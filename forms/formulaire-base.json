@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-04-11T08:40:12-04:00",
+    "generated_at": "2026-04-11T22:05:10-04:00",
     "template_id": 1,
     "template_name": "Base",
     "hourly_rate": 100,
@@ -8,53 +8,33 @@
     "fixed_items": [],
     "tasks": [
         {
-            "id": 3,
-            "name": "Conférence 1",
+            "id": 2,
+            "name": "Conférence",
             "color": "#1565C0"
         },
         {
             "id": 5,
-            "name": "Conférence 2",
-            "color": "#1565C0"
-        },
-        {
-            "id": 2,
-            "name": "Design",
-            "color": "#1565C0"
-        },
-        {
-            "id": 4,
-            "name": "Modification 1",
+            "name": "General",
             "color": "#1565C0"
         },
         {
             "id": 6,
-            "name": "Modification 2",
+            "name": "Horticulture",
             "color": "#1565C0"
         },
         {
-            "id": 9,
-            "name": "Plan d'horticulture",
-            "color": "#1565C0"
-        },
-        {
-            "id": 10,
-            "name": "Plan de démolition",
-            "color": "#1565C0"
-        },
-        {
-            "id": 8,
-            "name": "Plan general de base",
+            "id": 3,
+            "name": "Modif",
             "color": "#1565C0"
         },
         {
             "id": 1,
-            "name": "Reproduction de la maison",
+            "name": "Reproduction",
             "color": "#1565C0"
         },
         {
-            "id": 7,
-            "name": "Validation du projet",
+            "id": 4,
+            "name": "Validation des plans",
             "color": "#1565C0"
         }
     ],
@@ -70,7 +50,7 @@
             "code": "2.1",
             "step": 2,
             "parent_code": null,
-            "label": "Reproduction de la maison",
+            "label": "Reproduction",
             "input_type": "time",
             "sort_order": 10
         },
@@ -79,7 +59,7 @@
             "code": "2.2",
             "step": 2,
             "parent_code": null,
-            "label": "Design",
+            "label": "Conférence",
             "input_type": "time",
             "sort_order": 20
         },
@@ -88,7 +68,7 @@
             "code": "2.3",
             "step": 2,
             "parent_code": null,
-            "label": "Conférence 1",
+            "label": "Modif",
             "input_type": "time",
             "sort_order": 30
         },
@@ -97,7 +77,7 @@
             "code": "2.4",
             "step": 2,
             "parent_code": null,
-            "label": "Modification 1",
+            "label": "Validation des plans",
             "input_type": "time",
             "sort_order": 40
         },
@@ -106,7 +86,7 @@
             "code": "2.5",
             "step": 2,
             "parent_code": null,
-            "label": "Conférence 2",
+            "label": "General",
             "input_type": "time",
             "sort_order": 50
         },
@@ -115,7 +95,7 @@
             "code": "2.6",
             "step": 2,
             "parent_code": null,
-            "label": "Modification 2",
+            "label": "Horticulture",
             "input_type": "time",
             "sort_order": 60
         },
@@ -124,45 +104,9 @@
             "code": "2.7",
             "step": 2,
             "parent_code": null,
-            "label": "Validation du projet",
-            "input_type": "time",
-            "sort_order": 70
-        },
-        {
-            "id": 8,
-            "code": "2.8",
-            "step": 2,
-            "parent_code": null,
-            "label": "Plan general de base",
-            "input_type": "time",
-            "sort_order": 80
-        },
-        {
-            "id": 9,
-            "code": "2.9",
-            "step": 2,
-            "parent_code": null,
-            "label": "Plan d'horticulture",
-            "input_type": "time",
-            "sort_order": 90
-        },
-        {
-            "id": 10,
-            "code": "2.10",
-            "step": 2,
-            "parent_code": null,
-            "label": "Plan de démolition",
-            "input_type": "time",
-            "sort_order": 100
-        },
-        {
-            "id": 11,
-            "code": "2.11",
-            "step": 2,
-            "parent_code": null,
             "label": "Autre tâche (précisez)",
             "input_type": "time_other",
-            "sort_order": 110
+            "sort_order": 70
         }
     ]
 }
