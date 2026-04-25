@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-04-25T11:32:09-04:00",
+    "generated_at": "2026-04-25T13:17:14-04:00",
     "template_id": 1,
     "form_id": 1,
     "template_name": "Base",
@@ -12,7 +12,7 @@
     "tasks": [
         {
             "id": 1,
-            "name": "Reproduction de la maison",
+            "name": "Reproduction",
             "type": "task",
             "color": "#1565C0"
         },
@@ -30,18 +30,12 @@
         },
         {
             "id": 4,
-            "name": "Validation des plans",
-            "type": "task",
-            "color": "#1565C0"
-        },
-        {
-            "id": 5,
-            "name": "Plan général de base",
+            "name": "Plan général",
             "type": "plan",
             "color": "#1565C0"
         },
         {
-            "id": 6,
+            "id": 5,
             "name": "Plan électrique",
             "type": "plan",
             "color": "#1565C0"
@@ -49,29 +43,27 @@
     ],
     "plans": [],
     "tooltips": {
-        "step_1": "Veuillez remplir vos coordonnées.",
-        "step_2": "Entrez le nombre d'heures estimé pour chaque tâche."
+        "step_1": "Entrez le nombre d'heures estimé pour chaque tâche."
     },
     "step_titles": {
-        "step_1": "Informations client",
-        "step_2": "Tâches et durées"
+        "step_1": "Tâches et durées"
     },
     "pricing": [],
     "form_items": [
         {
             "id": 1,
-            "code": "2.1",
-            "step": 2,
+            "code": "1.1",
+            "step": 1,
             "parent_code": "",
-            "label": "Reproduction de la maison",
+            "label": "Reproduction",
             "input_type": "time",
             "sort_order": 10,
             "conditions": []
         },
         {
             "id": 2,
-            "code": "2.2",
-            "step": 2,
+            "code": "1.2",
+            "step": 1,
             "parent_code": "",
             "label": "Design",
             "input_type": "time",
@@ -80,8 +72,8 @@
         },
         {
             "id": 3,
-            "code": "2.3",
-            "step": 2,
+            "code": "1.3",
+            "step": 1,
             "parent_code": "",
             "label": "Conférence",
             "input_type": "time",
@@ -90,62 +82,51 @@
         },
         {
             "id": 4,
-            "code": "2.4",
-            "step": 2,
+            "code": "1.4",
+            "step": 1,
             "parent_code": "",
-            "label": "Validation des plans",
+            "label": "Plan général",
             "input_type": "time",
             "sort_order": 40,
             "conditions": []
         },
         {
             "id": 5,
-            "code": "2.5",
-            "step": 2,
+            "code": "1.5",
+            "step": 1,
             "parent_code": "",
-            "label": "Plan général de base",
+            "label": "Plan électrique",
             "input_type": "time",
             "sort_order": 50,
             "conditions": []
         },
         {
             "id": 6,
-            "code": "2.6",
-            "step": 2,
-            "parent_code": "",
-            "label": "Plan électrique",
-            "input_type": "time",
-            "sort_order": 60,
-            "conditions": []
-        },
-        {
-            "id": 7,
-            "code": "2.7",
-            "step": 2,
+            "code": "1.6",
+            "step": 1,
             "parent_code": "",
             "label": "Autre tâche (précisez)",
             "input_type": "time_other",
-            "sort_order": 70,
+            "sort_order": 60,
             "conditions": []
         }
     ],
     "steps": {
-        "1": [],
-        "2": [
+        "1": [
             {
                 "id": 1,
-                "code": "2.1",
-                "step": 2,
+                "code": "1.1",
+                "step": 1,
                 "parent_code": "",
-                "label": "Reproduction de la maison",
+                "label": "Reproduction",
                 "input_type": "time",
                 "sort_order": 10,
                 "conditions": []
             },
             {
                 "id": 2,
-                "code": "2.2",
-                "step": 2,
+                "code": "1.2",
+                "step": 1,
                 "parent_code": "",
                 "label": "Design",
                 "input_type": "time",
@@ -154,8 +135,8 @@
             },
             {
                 "id": 3,
-                "code": "2.3",
-                "step": 2,
+                "code": "1.3",
+                "step": 1,
                 "parent_code": "",
                 "label": "Conférence",
                 "input_type": "time",
@@ -164,42 +145,32 @@
             },
             {
                 "id": 4,
-                "code": "2.4",
-                "step": 2,
+                "code": "1.4",
+                "step": 1,
                 "parent_code": "",
-                "label": "Validation des plans",
+                "label": "Plan général",
                 "input_type": "time",
                 "sort_order": 40,
                 "conditions": []
             },
             {
                 "id": 5,
-                "code": "2.5",
-                "step": 2,
+                "code": "1.5",
+                "step": 1,
                 "parent_code": "",
-                "label": "Plan général de base",
+                "label": "Plan électrique",
                 "input_type": "time",
                 "sort_order": 50,
                 "conditions": []
             },
             {
                 "id": 6,
-                "code": "2.6",
-                "step": 2,
-                "parent_code": "",
-                "label": "Plan électrique",
-                "input_type": "time",
-                "sort_order": 60,
-                "conditions": []
-            },
-            {
-                "id": 7,
-                "code": "2.7",
-                "step": 2,
+                "code": "1.6",
+                "step": 1,
                 "parent_code": "",
                 "label": "Autre tâche (précisez)",
                 "input_type": "time_other",
-                "sort_order": 70,
+                "sort_order": 60,
                 "conditions": []
             }
         ]
