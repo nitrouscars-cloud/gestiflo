@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-05-24T20:23:06-04:00",
+    "generated_at": "2026-06-23T17:40:33-04:00",
     "template_id": 1,
     "form_id": 1,
     "template_name": "Base",
@@ -12,73 +12,9 @@
     "tasks": [
         {
             "id": 1,
-            "name": "Reproduction de la maison",
-            "type": "task",
+            "name": "test",
+            "type": "plan",
             "sort_order": 1,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 2,
-            "name": "Design",
-            "type": "task",
-            "sort_order": 2,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 3,
-            "name": "Conférence",
-            "type": "task",
-            "sort_order": 3,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 4,
-            "name": "Modification",
-            "type": "task",
-            "sort_order": 4,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 5,
-            "name": "Meetings",
-            "type": "task",
-            "sort_order": 5,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 6,
-            "name": "Plan général de base",
-            "type": "plan",
-            "sort_order": 6,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 7,
-            "name": "Plan horticulture",
-            "type": "plan",
-            "sort_order": 7,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 8,
-            "name": "Plan de paysagiste",
-            "type": "plan",
-            "sort_order": 8,
-            "default_estimated_minutes": 0,
-            "color": "#1565C0"
-        },
-        {
-            "id": 9,
-            "name": "Plan d'implentatation",
-            "type": "plan",
-            "sort_order": 9,
             "default_estimated_minutes": 0,
             "color": "#1565C0"
         }
@@ -98,7 +34,7 @@
             "code": "1.1",
             "step": 1,
             "parent_code": "",
-            "label": "Reproduction de la maison",
+            "label": "test",
             "input_type": "time",
             "sort_order": 10,
             "conditions": []
@@ -108,89 +44,9 @@
             "code": "1.2",
             "step": 1,
             "parent_code": "",
-            "label": "Design",
-            "input_type": "time",
-            "sort_order": 20,
-            "conditions": []
-        },
-        {
-            "id": 3,
-            "code": "1.3",
-            "step": 1,
-            "parent_code": "",
-            "label": "Conférence",
-            "input_type": "time",
-            "sort_order": 30,
-            "conditions": []
-        },
-        {
-            "id": 4,
-            "code": "1.4",
-            "step": 1,
-            "parent_code": "",
-            "label": "Modification",
-            "input_type": "time",
-            "sort_order": 40,
-            "conditions": []
-        },
-        {
-            "id": 5,
-            "code": "1.5",
-            "step": 1,
-            "parent_code": "",
-            "label": "Meetings",
-            "input_type": "time",
-            "sort_order": 50,
-            "conditions": []
-        },
-        {
-            "id": 6,
-            "code": "1.6",
-            "step": 1,
-            "parent_code": "",
-            "label": "Plan général de base",
-            "input_type": "time",
-            "sort_order": 60,
-            "conditions": []
-        },
-        {
-            "id": 7,
-            "code": "1.7",
-            "step": 1,
-            "parent_code": "",
-            "label": "Plan horticulture",
-            "input_type": "time",
-            "sort_order": 70,
-            "conditions": []
-        },
-        {
-            "id": 8,
-            "code": "1.8",
-            "step": 1,
-            "parent_code": "",
-            "label": "Plan de paysagiste",
-            "input_type": "time",
-            "sort_order": 80,
-            "conditions": []
-        },
-        {
-            "id": 9,
-            "code": "1.9",
-            "step": 1,
-            "parent_code": "",
-            "label": "Plan d'implentatation",
-            "input_type": "time",
-            "sort_order": 90,
-            "conditions": []
-        },
-        {
-            "id": 10,
-            "code": "1.10",
-            "step": 1,
-            "parent_code": "",
             "label": "Autre tâche (précisez)",
             "input_type": "time_other",
-            "sort_order": 100,
+            "sort_order": 20,
             "conditions": []
         }
     ],
@@ -201,7 +57,7 @@
                 "code": "1.1",
                 "step": 1,
                 "parent_code": "",
-                "label": "Reproduction de la maison",
+                "label": "test",
                 "input_type": "time",
                 "sort_order": 10,
                 "conditions": []
@@ -211,89 +67,9 @@
                 "code": "1.2",
                 "step": 1,
                 "parent_code": "",
-                "label": "Design",
-                "input_type": "time",
-                "sort_order": 20,
-                "conditions": []
-            },
-            {
-                "id": 3,
-                "code": "1.3",
-                "step": 1,
-                "parent_code": "",
-                "label": "Conférence",
-                "input_type": "time",
-                "sort_order": 30,
-                "conditions": []
-            },
-            {
-                "id": 4,
-                "code": "1.4",
-                "step": 1,
-                "parent_code": "",
-                "label": "Modification",
-                "input_type": "time",
-                "sort_order": 40,
-                "conditions": []
-            },
-            {
-                "id": 5,
-                "code": "1.5",
-                "step": 1,
-                "parent_code": "",
-                "label": "Meetings",
-                "input_type": "time",
-                "sort_order": 50,
-                "conditions": []
-            },
-            {
-                "id": 6,
-                "code": "1.6",
-                "step": 1,
-                "parent_code": "",
-                "label": "Plan général de base",
-                "input_type": "time",
-                "sort_order": 60,
-                "conditions": []
-            },
-            {
-                "id": 7,
-                "code": "1.7",
-                "step": 1,
-                "parent_code": "",
-                "label": "Plan horticulture",
-                "input_type": "time",
-                "sort_order": 70,
-                "conditions": []
-            },
-            {
-                "id": 8,
-                "code": "1.8",
-                "step": 1,
-                "parent_code": "",
-                "label": "Plan de paysagiste",
-                "input_type": "time",
-                "sort_order": 80,
-                "conditions": []
-            },
-            {
-                "id": 9,
-                "code": "1.9",
-                "step": 1,
-                "parent_code": "",
-                "label": "Plan d'implentatation",
-                "input_type": "time",
-                "sort_order": 90,
-                "conditions": []
-            },
-            {
-                "id": 10,
-                "code": "1.10",
-                "step": 1,
-                "parent_code": "",
                 "label": "Autre tâche (précisez)",
                 "input_type": "time_other",
-                "sort_order": 100,
+                "sort_order": 20,
                 "conditions": []
             }
         ]
